@@ -1,7 +1,5 @@
 import React from 'react';
-import { List, Datagrid, TextField, EmailField, UrlField } from 'react-admin';
-import { Edit, SimpleForm, TextInput } from 'react-admin';
-import { Create } from 'react-admin';
+import { Create, Edit, SimpleForm, TextInput, List, Datagrid, TextField, EmailField, UrlField } from 'react-admin';
 
 export const UserList = props => (
     <List {...props}>
